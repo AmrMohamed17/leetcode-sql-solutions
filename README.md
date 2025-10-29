@@ -95,9 +95,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Connect
 
-- LeetCode Profile: [Your Username](https://leetcode.com/your-username/)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
-- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [Your Profile](https://www.linkedin.com/in/amr-mohammed-788913348/)
+- GitHub: [@your-username](https://github.com/AmrMohamed17)
 
 ---
 
