@@ -1,0 +1,53 @@
+name: Update README Progress
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Easy/**'
+      - 'Medium/**'
+      - 'Hard/**'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Count solutions and update README
+        run: |
+          # Count folders in each difficulty
+          EASY_COUNT=$(find Easy -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l)
+          MEDIUM_COUNT=$(find Medium -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l)
+          HARD_COUNT=$(find Hard -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l)
+          TOTAL_COUNT=$((EASY_COUNT + MEDIUM_COUNT + HARD_COUNT))
+          
+          # Get current date
+          CURRENT_DATE=$(date +"%B %Y")
+          
+          # Update README.md
+          sed -i "s/\*\*Total Problems Solved:\*\* [0-9]*/\*\*Total Problems Solved:\*\* $TOTAL_COUNT/" README.md
+          sed -i "s/\*\*Easy:\*\* [0-9]*/\*\*Easy:\*\* $EASY_COUNT/" README.md
+          sed -i "s/\*\*Medium:\*\* [0-9]*/\*\*Medium:\*\* $MEDIUM_COUNT/" README.md
+          sed -i "s/\*\*Hard:\*\* [0-9]*/\*\*Hard:\*\* $HARD_COUNT/" README.md
+          
+          # Update statistics table
+          sed -i "s/| Easy       | [0-9]* /| Easy       | $EASY_COUNT /" README.md
+          sed -i "s/| Medium     | [0-9]* /| Medium     | $MEDIUM_COUNT /" README.md
+          sed -i "s/| Hard       | [0-9]* /| Hard       | $HARD_COUNT /" README.md
+          sed -i "s/| \*\*Total\*\*  | \*\*[0-9]*\*\* /| \*\*Total\*\*  | \*\*$TOTAL_COUNT\*\* /" README.md
+          
+          # Update last updated date
+          sed -i "s/\*\*Last Updated:\*\* .*/\*\*Last Updated:\*\* $CURRENT_DATE/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update: Progress statistics"
+          git push
