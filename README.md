@@ -53,11 +53,6 @@ Each problem includes:
 ## Technologies
 
 - **MySQL**
-- **PostgreSQL**
-- **MS SQL Server**
-- **Oracle**
-
-*Note: Solutions are primarily written in MySQL but notes are included for dialect-specific differences.*
 
 ## How to Use
 
