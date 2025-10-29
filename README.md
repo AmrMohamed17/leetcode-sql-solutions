@@ -95,8 +95,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Connect
 
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/amr-mohammed-788913348/)
-- GitHub: [@your-username](https://github.com/AmrMohamed17)
+- LinkedIn: [amr-mohammed](https://www.linkedin.com/in/amr-mohammed-788913348/)
+- GitHub: [@AmrMohamed17](https://github.com/AmrMohamed17)
 
 ---
 
