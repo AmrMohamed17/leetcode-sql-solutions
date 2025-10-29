@@ -41,15 +41,6 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 - **CTEs (Common Table Expressions)**
 - **Advanced SQL Techniques**
 
-## Solution Format
-
-Each problem includes:
-- Complete SQL solution
-- Problem description and constraints
-- Approach and explanation
-- Time and space complexity analysis
-- Alternative solutions (when applicable)
-
 ## Technologies
 
 - **MySQL**
@@ -58,9 +49,8 @@ Each problem includes:
 
 1. Navigate to the difficulty level (Easy/Medium/Hard)
 2. Select the problem you're interested in
-3. Review the `README.md` for problem details and approach
-4. Check `solution.sql` for the complete solution
-5. Test the solution on LeetCode
+3. Check `solution.sql` for the complete solution
+4. Test the solution on LeetCode
 
 ## Learning Resources
 
