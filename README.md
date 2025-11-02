@@ -4,8 +4,8 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 
 ## Progress
 
-- **Total Problems Solved:** 2
-- **Easy:** 1
+- **Total Problems Solved:** 5
+- **Easy:** 4
 - **Medium:** 1
 - **Hard:** 0
 
@@ -62,10 +62,10 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 
 | Difficulty | Problems Solved |
 |------------|----------------|
-| Easy       | 1              |
+| Easy       | 4              |
 | Medium     | 1              |
 | Hard       | 0              |
-| **Total**  | **2**          |
+| **Total**  | **5**          |
 
 ## Contributing
 
@@ -87,4 +87,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 If you find this repository helpful, please consider giving it a star!
 
-**Last Updated:** October 2025
+**Last Updated:** November 2025
