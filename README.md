@@ -15,17 +15,14 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 ├── Easy/
 │   ├── 0175-combine-two-tables/
 │   │   ├── solution.sql
-│   │   └── README.md
 │   └── ...
 ├── Medium/
 │   ├── 0177-nth-highest-salary/
 │   │   ├── solution.sql
-│   │   └── README.md
 │   └── ...
 ├── Hard/
 │   ├── 0185-department-top-three-salaries/
 │   │   ├── solution.sql
-│   │   └── README.md
 │   └── ...
 └── README.md
 ```
