@@ -4,8 +4,8 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 
 ## Progress
 
-- **Total Problems Solved:** 19
-- **Easy:** 16
+- **Total Problems Solved:** 21
+- **Easy:** 18
 - **Medium:** 3
 - **Hard:** 0
 
@@ -59,10 +59,10 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 
 | Difficulty | Problems Solved |
 |------------|----------------|
-| Easy       | 16              |
+| Easy       | 18              |
 | Medium     | 3              |
 | Hard       | 0              |
-| **Total**  | **19**          |
+| **Total**  | **21**          |
 
 ## Contributing
 
