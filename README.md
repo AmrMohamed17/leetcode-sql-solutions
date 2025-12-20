@@ -4,9 +4,9 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 
 ## Progress
 
-- **Total Problems Solved:** 26
+- **Total Problems Solved:** 27
 - **Easy:** 20
-- **Medium:** 6
+- **Medium:** 7
 - **Hard:** 0
 
 ## Repository Structure
@@ -60,9 +60,9 @@ A comprehensive collection of my SQL solutions for LeetCode problems, featuring 
 | Difficulty | Problems Solved |
 |------------|----------------|
 | Easy       | 20              |
-| Medium     | 6              |
+| Medium     | 7              |
 | Hard       | 0              |
-| **Total**  | **26**          |
+| **Total**  | **27**          |
 
 ## Contributing
 
